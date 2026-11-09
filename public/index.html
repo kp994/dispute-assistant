@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dispute Agent</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%231f3a5f'/><path d='M9 17l5 5 9-12' stroke='%23f4efe6' stroke-width='3.2' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ag-grid-community@32.3.3/styles/ag-grid.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ag-grid-community@32.3.3/styles/ag-theme-quartz.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo" aria-hidden="true"></span>
+      <div>
+        <h1>Dispute Agent</h1>
+        <p class="tagline">Decide whether to fight, then fight well.</p>
+      </div>
+    </div>
+    <div class="top-actions">
+      <span id="status-chips" class="chips"></span>
+      <button id="sync-btn" class="btn ghost" type="button">Sync PayPal sandbox</button>
+      <button id="reset-btn" class="btn ghost" type="button">Reset demo</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="queue">
+      <div class="section-head">
+        <h2>Open disputes</h2>
+        <p class="muted">Sorted by deadline. Pick a case to see the evidence, the math and a draft.</p>
+      </div>
+      <div id="grid" class="grid-host"></div>
+    </section>
+
+    <section id="detail" class="detail" hidden></section>
+  </main>
+
+  <dialog id="approve-dialog" class="dialog"></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/ag-grid-community@32.3.3/dist/ag-grid-community.min.js"></script>
+  <script src="ev.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

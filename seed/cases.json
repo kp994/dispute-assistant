@@ -1,0 +1,141 @@
+[
+  {
+    "id": "DA-1041",
+    "reason": "ITEM_NOT_RECEIVED",
+    "stage": "CLAIM",
+    "amount": 189.0,
+    "currency": "USD",
+    "opened_at": "@-6d",
+    "due_at": "@+52h",
+    "buyer": { "name": "Jordan Alvarez" },
+    "order": {
+      "id": "ORD-58213",
+      "placed_at": "@-14d",
+      "items": [{ "name": "Walnut wireless headphones", "qty": 1, "price": 189.0 }],
+      "ship_to": { "line1": "418 Orchard Lane", "city": "Columbus", "state": "OH", "postal_code": "43215", "country": "US" },
+      "listing_description": "Over-ear wireless headphones with walnut cups, 30-hour battery, includes carry case and USB-C cable."
+    },
+    "shipment": {
+      "carrier": "USPS",
+      "tracking_number": "9400 1118 9922 3344 5566 77",
+      "shipped_at": "@-13d",
+      "uploaded_to_paypal": true,
+      "signature_confirmation": false,
+      "delivered_at": "@-9d",
+      "delivered_to_address_match": true,
+      "events": [
+        { "time": "@-13d", "status": "Accepted at USPS origin facility", "location": "Portland, OR" },
+        { "time": "@-11d", "status": "In transit to next facility", "location": "Denver, CO" },
+        { "time": "@-9.5d", "status": "Out for delivery", "location": "Columbus, OH 43215" },
+        { "time": "@-9d", "status": "Delivered, front door/porch", "location": "Columbus, OH 43215" }
+      ]
+    },
+    "messages": [
+      { "id": "m1", "from": "buyer", "time": "@-7d", "text": "Hi, tracking says delivered but I never got the headphones. I checked with my neighbours too. Can you help?" },
+      { "id": "m2", "from": "seller", "time": "@-7d", "text": "Sorry to hear that. USPS shows it was left at your front door on the delivery date. Could you check with anyone else at the address and with your local post office?" },
+      { "id": "m3", "from": "buyer", "time": "@-6d", "text": "I don't have time for this. Opening a claim." }
+    ]
+  },
+  {
+    "id": "DA-1042",
+    "reason": "NOT_AS_DESCRIBED",
+    "stage": "INQUIRY",
+    "amount": 64.0,
+    "currency": "USD",
+    "opened_at": "@-2d",
+    "due_at": "@+8d",
+    "buyer": { "name": "Priya Nair" },
+    "order": {
+      "id": "ORD-58277",
+      "placed_at": "@-12d",
+      "items": [{ "name": "Hand-dyed linen wrap dress, size M", "qty": 1, "price": 64.0 }],
+      "ship_to": { "line1": "77 Harbour Street", "city": "Halifax", "state": "NS", "postal_code": "B3J 1A1", "country": "CA" },
+      "listing_description": "Hand-dyed linen wrap dress in sage green. Each piece is dyed by hand, so colour may vary slightly from the photos. Size M fits bust 36-38 in.",
+      "photos_on_file": true
+    },
+    "shipment": {
+      "carrier": "Canada Post",
+      "tracking_number": "LM 4471 2290 8CA",
+      "shipped_at": "@-11d",
+      "uploaded_to_paypal": true,
+      "signature_confirmation": false,
+      "delivered_at": "@-5d",
+      "delivered_to_address_match": true,
+      "events": [
+        { "time": "@-11d", "status": "Item accepted", "location": "Asheville, NC" },
+        { "time": "@-5d", "status": "Delivered", "location": "Halifax, NS" }
+      ]
+    },
+    "messages": [
+      { "id": "m1", "from": "buyer", "time": "@-3d", "text": "The dress arrived but it's much more grey than green, nothing like the photos. Also there's a small pulled thread near the hem." },
+      { "id": "m2", "from": "seller", "time": "@-3d", "text": "I'm sorry it isn't what you expected. The listing mentions hand-dyed colour can vary. I took photos before shipping and didn't see a pulled thread. Would you send me a photo of it?" },
+      { "id": "m3", "from": "buyer", "time": "@-2d", "text": "I'd rather just get a refund. I don't want to pay to ship it back to the US." }
+    ]
+  },
+  {
+    "id": "DA-1043",
+    "reason": "ITEM_NOT_RECEIVED",
+    "stage": "INQUIRY",
+    "amount": 22.0,
+    "currency": "USD",
+    "opened_at": "@-1d",
+    "due_at": "@+19h",
+    "buyer": { "name": "Sam Okafor" },
+    "order": {
+      "id": "ORD-58301",
+      "placed_at": "@-16d",
+      "items": [{ "name": "Clear phone case, model 15", "qty": 1, "price": 22.0 }],
+      "ship_to": { "line1": "2209 Pine Ridge Rd", "city": "Tulsa", "state": "OK", "postal_code": "74105", "country": "US" },
+      "listing_description": "Slim clear phone case. Ships in a padded envelope."
+    },
+    "shipment": {
+      "carrier": "USPS",
+      "tracking_number": null,
+      "shipped_at": "@-15d",
+      "uploaded_to_paypal": false,
+      "signature_confirmation": false,
+      "delivered_at": null,
+      "delivered_to_address_match": false,
+      "events": []
+    },
+    "messages": [
+      { "id": "m1", "from": "buyer", "time": "@-1d", "text": "It's been over two weeks and nothing has arrived. Is there a tracking number?" }
+    ]
+  },
+  {
+    "id": "DA-1044",
+    "reason": "ITEM_NOT_RECEIVED",
+    "stage": "CLAIM",
+    "amount": 820.0,
+    "currency": "USD",
+    "opened_at": "@-4d",
+    "due_at": "@+4d",
+    "buyer": { "name": "Taylor Brooks" },
+    "order": {
+      "id": "ORD-58190",
+      "placed_at": "@-18d",
+      "items": [{ "name": "Used 70-200mm f/2.8 camera lens", "qty": 1, "price": 820.0 }],
+      "ship_to": { "line1": "15 Mercer Ave, Apt 4B", "city": "Jersey City", "state": "NJ", "postal_code": "07302", "country": "US" },
+      "listing_description": "Used telephoto lens in excellent condition. Ships insured with UPS.",
+      "photos_on_file": true
+    },
+    "shipment": {
+      "carrier": "UPS",
+      "tracking_number": "1Z 999 AA1 01 2345 6784",
+      "shipped_at": "@-17d",
+      "uploaded_to_paypal": false,
+      "signature_confirmation": false,
+      "delivered_at": "@-14d",
+      "delivered_to_address_match": true,
+      "events": [
+        { "time": "@-17d", "status": "Picked up", "location": "Austin, TX" },
+        { "time": "@-14.3d", "status": "Out for delivery", "location": "Jersey City, NJ" },
+        { "time": "@-14d", "status": "Delivered, left in building lobby", "location": "Jersey City, NJ 07302" }
+      ]
+    },
+    "messages": [
+      { "id": "m1", "from": "buyer", "time": "@-5d", "text": "UPS says it was left in the lobby but there's nothing there. Our building has had packages stolen before." },
+      { "id": "m2", "from": "seller", "time": "@-5d", "text": "I'm sorry. I insured it with UPS, so I'll open a claim with them as well." }
+    ]
+  }
+]
